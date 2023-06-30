@@ -181,6 +181,13 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.page-item-icon {
+  background-color: var(--footer-color);
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
 .page-subtitle {
   font-style: normal;
   font-weight: 500;
@@ -241,6 +248,21 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
+}
+
+.team-list-icon {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.team-item-icon {
+}
+.team-icon {
+  background-color: var(--logo-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 /* Footer */
 .footer {
@@ -363,7 +385,6 @@ img {
 }
 
 .subtitle-text {
- 
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
