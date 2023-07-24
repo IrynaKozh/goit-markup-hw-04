@@ -112,7 +112,8 @@ button {
   color: var(--hover-color);
 }
 
-.header-link:hover::after {
+.header-link:hover::after,
+.header-link:focus::after {
   position: absolute;
   content: "";
   display: block;
@@ -319,10 +320,7 @@ button {
 .section-four-div {
   padding: 32px 0;
 }
-.div-team-icon {
-  width: 40px;
-  height: 40px;
-}
+
 .team-icon {
   fill: var(--footer-color);
 }
@@ -359,6 +357,7 @@ button {
   transition-property: color;
   transition-duration: 250ms;
   height: 88px;
+  width: calc((100% - 120px) / 6);
 }
 
 .div-customer-icon {
