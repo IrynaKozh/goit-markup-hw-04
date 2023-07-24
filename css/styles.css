@@ -325,6 +325,8 @@ button {
 
 .team-icon {
   fill: var(--footer-color);
+  height: 24px;
+  width: 24px;
 }
 
 .page-text-four {
@@ -361,7 +363,7 @@ button {
   height: 88px;
   width: calc((100% - 120px) / 6);
   width: 168px;
-  height: 68px;
+  height: 88px;
 }
 
 .icon-item {
