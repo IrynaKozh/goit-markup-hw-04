@@ -296,6 +296,8 @@ button {
 .team-img {
 }
 .section-four-item {
+  width: 40px;
+  height: 40px;
 }
 .team-list-icon {
   list-style: none;
@@ -358,12 +360,10 @@ button {
   transition-duration: 250ms;
   height: 88px;
   width: calc((100% - 120px) / 6);
-}
-
-.div-customer-icon {
   width: 168px;
   height: 68px;
 }
+
 .icon-item {
   color: var(--icon-color);
   width: 100%;
@@ -448,10 +448,8 @@ button {
 }
 .link-icon {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-hover {
-  transition-property: background-color;
-  transition-duration: 250ms;
+  width: 40px;
+  height: 40px;
 }
 .icon-hover:hover,
 .icon-hover:focus {
@@ -466,6 +464,10 @@ button {
   margin-top: 108px;
 }
 .button-item {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-item:hover,
 .button-item:focus {
@@ -486,10 +488,6 @@ button {
   align-items: center;
   padding: 12px 24px;
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -667,14 +665,13 @@ button {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--hover-color);
+  border: none;
+  fill: #ffffff;
 }
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon:hover,
-.modal-icon:focus {
-  fill: #ffffff;
-}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
