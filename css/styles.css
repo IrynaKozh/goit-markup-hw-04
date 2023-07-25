@@ -5,7 +5,6 @@
 }
 body {
   font-family: Roboto, sans-serif;
-  font-weight: bold;
   size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -99,22 +98,14 @@ button {
 
   color: var(--accent-color);
 }
-.header-link {
+.curent {
+  color: var(--hover-color);
   position: relative;
-  text-decoration: none;
-  color: var(--hover-color);
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--hover-color);
 }
 
-.header-link:hover::after,
-.header-link:focus::after {
+.curent::after {
   position: absolute;
+
   content: "";
   display: block;
   left: 0;
@@ -126,6 +117,18 @@ button {
 
   margin-top: 20px;
 }
+.header-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-color);
+}
+
 .address {
   font-style: normal;
   margin-left: auto;
@@ -147,6 +150,7 @@ button {
 .address-link {
   color: var(--primary-color);
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -346,7 +350,7 @@ button {
   padding: 120px 0;
   background-color: var(--white-color);
 }
-.customer-icon {
+.cnstomer-icon {
   color: var(--icon-color);
   fill: currentColor;
 }
