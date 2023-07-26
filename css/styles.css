@@ -99,7 +99,7 @@ button {
 
   color: var(--accent-color);
 }
-.curent {
+.header-link.curent {
   color: var(--hover-color);
   position: relative;
 }
@@ -352,7 +352,6 @@ button {
   background-color: var(--white-color);
 }
 .castomer-icon {
-  color: var(--icon-color);
   fill: currentColor;
 }
 
@@ -535,8 +534,8 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-link p:hover,
-.portfolio-link p:focus {
+.portfolio-link:hover .overlay-text,
+.portfolio-link:focus .overlay-text {
   transform: translateY(0%);
 }
 .portfolio-subtitle {
